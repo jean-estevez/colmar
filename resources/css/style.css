@@ -22,6 +22,11 @@ html {
     color: #424242;
 }
 
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
 .flex {
     display: flex;
     align-items: center;
@@ -67,9 +72,64 @@ nav li {
 nav a {
     text-decoration: none;
     color: #424242;
-    transition: color 100ms linear 100ms;
+    transition: color 100ms linear 50ms;
 }
 
 nav a:hover {
     color: #F65833;
+}
+
+/* Banner */
+
+.banner {
+    background-color: #087E8B;
+}
+
+.banner-container {
+    justify-content: flex-start;
+    padding: 2rem 1.5rem;
+}
+
+.banner-container .img-container {
+    width: 60%;
+    margin-right: 1.5rem;
+}
+
+.banner-container img {
+    width: 100%;
+}
+
+.call-to-action {
+    width: 27%;
+    margin-left: 1.5rem;
+}
+
+.call-to-action h1 {
+    color: white;
+    font-size: 2.25rem;
+    margin-bottom: 2rem;
+    line-height: 2.75rem;
+}
+
+.call-to-action h3 {
+    font-size: 1.25rem;
+    margin-bottom: 2.5rem;
+    line-height: 1.75rem;
+}
+
+.call-to-action .btn {
+    color: white;
+    border-radius: 4px;
+    background-color: #F65833;
+    border: 2px solid #F65833;
+    padding: 0.5rem;
+    text-align: center;
+    transition: color 300ms linear 100ms;
+}
+
+.call-to-action .btn:hover {
+    color: #F65833;
+    background-color: #FFFFFF;
+    border: 2px solid #F65833;
+    font-weight: bold;
 }
