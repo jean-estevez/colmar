@@ -19,11 +19,7 @@
 html {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-}
-
-.container {
-    width: 960px;
-    margin: 0 auto;
+    color: #424242;
 }
 
 .flex {
@@ -45,6 +41,11 @@ header {
     height: 4rem;
 }
 
+nav {
+    padding: 0 1.5rem;
+    justify-content: space-between;
+}
+
 .logo img {
     height: 3rem;
     margin-right: 4px;
@@ -57,4 +58,18 @@ header {
 
 .logo:last-child {
     color: #A4A4A4;
+}
+
+nav li {
+    padding-left: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #424242;
+    transition: color 100ms linear 100ms;
+}
+
+nav a:hover {
+    color: #F65833;
 }
