@@ -40,8 +40,16 @@ html {
     width: 100%;
 }
 
+h2 {
+    font-size: 1.75rem;
+}
+
 h3 {
     font-size: 1.25rem;
+}
+
+p {
+    font-size: 0.9rem;
 }
 
 /* Header */
@@ -115,7 +123,7 @@ nav a:hover {
 }
 
 .main-banner .main-info {
-    padding-left: 1.5rem;
+    padding-left: 1.75rem;
 }
 
 .main-banner .right-section h1 {
@@ -157,12 +165,10 @@ nav a:hover {
 }
 
 .campus-info h2 {
-    font-size: 1.75rem;
     margin: 2rem 0 1.5rem 0;
 }
 
 .campus-info p {
-    font-size: 0.9rem;
     line-height: 1.3rem;
     margin-bottom: 2rem;
 }
@@ -195,10 +201,6 @@ nav a:hover {
     color: #F65833;
 }
 
-.campus-info p {
-    font-size: 0.9rem;
-}
-
 .campus-info .content a {
     color: #087E8B;
     text-decoration: none;
@@ -214,4 +216,59 @@ nav a:hover {
 
 .lecture {
     background-color: #DCDCDC;
+}
+
+/* Class Info */
+
+.courses {
+    background-color: #DCDCDC;
+    padding-bottom: 1.5rem;
+}
+
+.courses .container {
+    text-align: center;
+}
+
+.courses .courses-grid {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.courses h2 {
+    padding: 2rem 0;
+}
+
+.courses h3 {
+    color: #F65833;
+    margin-bottom: 0.5rem;
+}
+
+.courses h4 {
+    font-size: 1rem;
+    padding: 8px 0;
+    color: #0B3954;
+}
+
+.course p {
+    line-height: 1.3rem;
+}
+
+.course {
+    width: 32%;
+    height: 19rem;
+    background-color: white;
+    margin-bottom: 1.25rem;
+}
+
+.course img {
+    width: 100%;
+}
+
+.course-content {
+    padding: 1rem 1rem 0 1rem;
+    text-align: left;
 }
