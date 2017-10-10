@@ -23,7 +23,7 @@ html {
 }
 
 .container {
-    max-width: 1050px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -51,6 +51,10 @@ h3 {
 p {
     font-size: 0.9rem;
     line-height: 1.3rem;
+}
+
+.content {
+    margin-right: 1rem;
 }
 
 /* Header */
@@ -105,6 +109,27 @@ nav a:hover {
     color: #F65833;
 }
 
+nav.mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 800px) {
+    nav.desktop {
+        display: none;
+    }
+    .logo {
+        display: none;
+    }
+    nav.mobile {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0;
+        border: 1px solid red;
+    }
+}
+
 /* Banner */
 
 .main-banner {
@@ -123,10 +148,6 @@ nav a:hover {
     justify-content: center;
 }
 
-* {
-    border: 1px solid red;
-}
-
 .main-banner .main-info {
     margin: 0 3.75rem 0 1.75rem;
 }
@@ -134,12 +155,12 @@ nav a:hover {
 .main-banner .right-section h1 {
     color: white;
     font-size: 2.35rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.75rem;
     line-height: 2.75rem;
 }
 
 .main-banner .right-section h3 {
-    margin-bottom: 2.5rem;
+    margin-bottom: 1.5rem;
     line-height: 1.75rem;
 }
 
@@ -174,7 +195,7 @@ nav a:hover {
 }
 
 .campus-info p {
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 .campus-info span.name {
@@ -319,11 +340,11 @@ nav a:hover {
     color: #F65833;
 }
 
-.thesis-box.fisma {
+.fisma {
     background-color: #DCDCDC;
 }
 
-.thesis-box.new-york {
+.new-york {
     border-bottom: 1px solid #DCDCDC;
 }
 
