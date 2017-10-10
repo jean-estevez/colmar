@@ -322,3 +322,32 @@ nav a:hover {
 .thesis-box.new-york {
     border-bottom: 1px solid #DCDCDC;
 }
+
+/* Footer */
+
+footer {
+    border-top: 1px solid #DCDCDC
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    color: #0B3954;
+    font-size: .75rem;
+    margin-top: 1rem;
+    height: 4rem;
+}
+
+footer span {
+    margin-left: 1.5rem;
+}
+
+.footer-nav a {
+    color: #0B3954;
+    text-decoration: none;
+    padding-right: 1.5rem;
+}
+
+footer a:hover {
+    color: #F65833;
+}
