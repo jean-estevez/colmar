@@ -123,8 +123,12 @@ nav a:hover {
     justify-content: center;
 }
 
+* {
+    border: 1px solid red;
+}
+
 .main-banner .main-info {
-    padding-left: 1.75rem;
+    margin: 0 3.75rem 0 1.75rem;
 }
 
 .main-banner .right-section h1 {
