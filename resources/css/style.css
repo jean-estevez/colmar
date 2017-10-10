@@ -50,6 +50,7 @@ h3 {
 
 p {
     font-size: 0.9rem;
+    line-height: 1.3rem;
 }
 
 /* Header */
@@ -169,7 +170,6 @@ nav a:hover {
 }
 
 .campus-info p {
-    line-height: 1.3rem;
     margin-bottom: 2rem;
 }
 
@@ -178,8 +178,9 @@ nav a:hover {
 }
 
 .campus-info .right-section {
-    width: 28rem;
-    padding: 1rem 0 2rem 0;
+    width: 40%;
+    height: 100%;
+    padding: 1rem 0 3.75rem 0;
     display: flex;
     flex-direction: column;
     border-left: 1px solid #DCDCDC;
@@ -225,10 +226,6 @@ nav a:hover {
     padding-bottom: 1.5rem;
 }
 
-.courses .container {
-    text-align: center;
-}
-
 .courses .courses-grid {
     width: 85%;
     display: flex;
@@ -239,6 +236,7 @@ nav a:hover {
 }
 
 .courses h2 {
+    text-align: center;
     padding: 2rem 0;
 }
 
@@ -251,10 +249,6 @@ nav a:hover {
     font-size: 1rem;
     padding: 8px 0;
     color: #0B3954;
-}
-
-.course p {
-    line-height: 1.3rem;
 }
 
 .course {
@@ -271,4 +265,60 @@ nav a:hover {
 .course-content {
     padding: 1rem 1rem 0 1rem;
     text-align: left;
+}
+
+/* Thesis Exhibit */
+
+.thesis-header h2 {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.thesis-info.container {
+    display: flex;
+}
+
+.thesis .left-section {
+    padding-top: 0;
+}
+
+.thesis .left-section h3 {
+    margin: 1.5rem 0 0.5rem 0;
+    color: #0B3954;
+}
+
+.thesis p {
+    margin-bottom: 2rem;
+}
+
+.thesis .right-section {
+    width: 40%;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #DCDCDC;
+}
+
+.thesis .thesis-box {
+    display: flex;
+    align-items: center;
+}
+
+.thesis .thesis-box img {
+    width: 35%;
+    height: auto;
+    padding: 1rem;
+}
+
+.thesis .right-section h3 {
+    margin-bottom: 0.5rem;
+    color: #F65833;
+}
+
+.thesis-box.fisma {
+    background-color: #DCDCDC;
+}
+
+.thesis-box.new-york {
+    border-bottom: 1px solid #DCDCDC;
 }
