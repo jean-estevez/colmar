@@ -131,7 +131,6 @@ nav.mobile {
         align-items: center;
         justify-content: space-around;
         padding: 0;
-        border: 1px solid red;
     }
     .mobile-icon:hover {
         cursor: pointer;
@@ -187,7 +186,6 @@ nav.mobile {
 @media only screen and (max-width: 480px) {
     .main-banner .container {
         display: block;
-        border: 1px solid red;
     }
     .left-section {
         width: 100%;
@@ -200,7 +198,6 @@ nav.mobile {
     }
     .main-info {
         margin: 0 1.75rem;
-        border: 1px solid red;
     }
     .right-section .btn a {
         width: 100%;
@@ -294,7 +291,7 @@ nav.mobile {
         display: block;
     }
     .info-box .content {
-        margin: 2rem 0 2rem 1rem;
+        margin: 1.5rem 0 2rem 1rem;
     }
     .info-box p {
         margin-bottom: 1rem;
