@@ -275,6 +275,7 @@ nav.mobile {
         width: 100%;
         padding: 1rem 1rem 0 1rem;
         border-left: 0;
+        border-bottom: 1px solid #DCDCDC;
     }
     .campus-info .info-box {
         flex-direction: column;
@@ -315,13 +316,17 @@ nav.mobile {
     display: block;
 }
 
-.courses .courses-grid {
+.courses-grid {
     width: 85%;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
     flex-wrap: wrap;
     flex-direction: row;
+}
+
+.mobile-courses-list {
+    display: none;
 }
 
 .courses h2 {
@@ -343,7 +348,7 @@ nav.mobile {
 .course {
     width: 32%;
     height: 19rem;
-    background-color: white;
+    background-color: #FFFFFF;
     margin-bottom: 1.25rem;
 }
 
@@ -354,6 +359,26 @@ nav.mobile {
 .course-content {
     padding: 1rem 1rem 0 1rem;
     text-align: left;
+}
+
+@media only screen and (max-width: 480px) {
+    .courses {
+        background-color: #FFFFFF;
+    }
+    .courses-grid {
+        display: none;
+    }
+    .courses h2 {
+        font-size: 2.35rem;
+    }
+    .mobile-courses-list {
+        display: block;
+    }
+    .mobile-courses-list h3.mobile {
+        padding: 2rem 0 2rem 1rem;
+        background-color: #DCDCDC;
+        margin-bottom: 0.5rem;
+    }
 }
 
 /* Thesis Exhibit */
