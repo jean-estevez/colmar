@@ -230,7 +230,6 @@ nav.mobile {
 
 .campus-info .right-section {
     width: 40%;
-    height: 100%;
     padding: 1rem 0 3.75rem 0;
     border-left: 1px solid #DCDCDC;
 }
@@ -240,10 +239,13 @@ nav.mobile {
     align-items: center;
 }
 
-.campus-info .info-box img {
+.info-box img.desktop {
     width: 35%;
-    height: auto;
     padding: 1rem;
+}
+
+.info-box img.mobile {
+    display: none;
 }
 
 .campus-info h3 {
@@ -268,7 +270,42 @@ nav.mobile {
     background-color: #DCDCDC;
 }
 
-
+@media only screen and (max-width: 480px) {
+    .campus-info .left-section {
+        display: none;
+    }
+    .campus-info .right-section {
+        width: 100%;
+        padding: 1rem 1rem 0 1rem;
+        border-left: 0;
+    }
+    .campus-info .info-box {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .campus-info .info-box img {
+        width: 100%;
+        padding: 0;
+    }
+    .info-box img.desktop {
+        display: none;
+    }
+    .info-box img.mobile {
+        display: block;
+    }
+    .info-box .content {
+        margin: 2rem 0 2rem 1rem;
+    }
+    .info-box p {
+        margin-bottom: 1rem;
+    }
+    .lecture {
+        background-color: white;
+    }
+    .orientation {
+        border-bottom: none;
+    }
+}
 
 /* Class Info */
 
