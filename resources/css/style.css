@@ -364,6 +364,7 @@ nav.mobile {
 @media only screen and (max-width: 480px) {
     .courses {
         background-color: #FFFFFF;
+        padding-bottom: 1rem;
     }
     .courses-grid {
         display: none;
@@ -431,10 +432,25 @@ nav.mobile {
     border-bottom: 1px solid #DCDCDC;
 }
 
+@media only screen and (max-width: 480px) {
+    .thesis-header h2 {
+        font-size: 2.35rem;
+    }
+    .thesis-info {
+        flex-direction: column;
+    }
+    .thesis-info .desktop {
+        display: none;
+    }
+    .thesis-info .right-section {
+        display: none;
+    }
+}
+
 /* Footer */
 
 footer {
-    border-top: 1px solid #DCDCDC
+    border-top: 1px solid #DCDCDC;
 }
 
 footer .container {
@@ -455,6 +471,19 @@ footer span {
     padding-right: 1.5rem;
 }
 
-footer a:hover {
+.footer-nav a:hover {
     color: #F65833;
+}
+
+@media only screen and (max-width: 480px) {
+    .footer-nav {
+        display: none;
+    }
+    footer {
+        border-top: none;
+        margin-top: 2.5rem;
+    }
+    footer .container {
+        height: 2.5rem;
+    }
 }
