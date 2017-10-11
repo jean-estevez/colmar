@@ -118,7 +118,7 @@ nav.mobile {
     display: none;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 480px) {
     nav.desktop {
         display: none;
     }
@@ -184,7 +184,7 @@ nav.mobile {
     font-weight: bold;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 480px) {
     .main-banner .container {
         display: block;
         border: 1px solid red;
@@ -194,9 +194,13 @@ nav.mobile {
         padding: 0;
     }
     .main-banner .right-section {
-        width: 26rem;
+        width: 24rem;
         margin: 0 auto;
-        padding: 2rem 1rem;
+        padding: 2rem 0;
+    }
+    .main-info {
+        margin: 0 1.75rem;
+        border: 1px solid red;
     }
     .right-section .btn a {
         width: 100%;
@@ -205,8 +209,6 @@ nav.mobile {
         font-size: 2.15rem;
     }
 }
-
-
 
 /* Campus Info */
 
@@ -265,6 +267,8 @@ nav.mobile {
 .lecture {
     background-color: #DCDCDC;
 }
+
+
 
 /* Class Info */
 
