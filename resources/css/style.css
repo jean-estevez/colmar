@@ -345,6 +345,15 @@ nav.mobile {
     color: #0B3954;
 }
 
+.courses a {
+    color: #F65833;
+    text-decoration: none;
+}
+
+.courses a:hover {
+    color: #0B3954;
+}
+
 .course {
     width: 32%;
     height: 19rem;
@@ -386,7 +395,7 @@ nav.mobile {
 
 .thesis-header h2 {
     text-align: center;
-    padding: 2rem 0;
+    padding: 1rem 0 2rem 0;
 }
 
 .thesis .left-section {
